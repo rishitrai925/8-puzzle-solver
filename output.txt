@@ -1,0 +1,124 @@
+8-Puzzle Experimentation Results
+Start State: 412305768
+Goal State:  123456780
+
+======================================
+Heuristic: Misplaced Tiles
+======================================
+Status: Solution Found!
+- Running Time: 0.014244 seconds
+- Solution Length (depth): 18
+- Nodes Removed from Frontier: 1232
+
+======================================
+Heuristic: Manhattan Distance
+======================================
+Status: Solution Found!
+- Running Time: 0.00211 seconds
+- Solution Length (depth): 18
+- Nodes Removed from Frontier: 262
+
+======================================
+Heuristic: Linear Conflict
+======================================
+Status: Solution Found!
+- Running Time: 0.002998 seconds
+- Solution Length (depth): 18
+- Nodes Removed from Frontier: 223
+
+--- Step-by-Step Path (Linear Conflict) ---
+Step 0:
+412
+305
+768
+
+Step 1:
+412
+365
+708
+
+Step 2:
+412
+365
+780
+
+Step 3:
+412
+360
+785
+
+Step 4:
+412
+306
+785
+
+Step 5:
+412
+036
+785
+
+Step 6:
+412
+736
+085
+
+Step 7:
+412
+736
+805
+
+Step 8:
+412
+736
+850
+
+Step 9:
+412
+730
+856
+
+Step 10:
+412
+703
+856
+
+Step 11:
+412
+753
+806
+
+Step 12:
+412
+753
+086
+
+Step 13:
+412
+053
+786
+
+Step 14:
+012
+453
+786
+
+Step 15:
+102
+453
+786
+
+Step 16:
+120
+453
+786
+
+Step 17:
+123
+450
+786
+
+Step 18:
+123
+456
+780
+
